@@ -1,0 +1,2 @@
+g++ -Wall -O3 -fPIC -I/nfs/user/kjaffel/MG5_aMC_v2_7_3/HEPTools/madanalysis5/madanalysis5/tools/ -I./ -pthread -std=c++11 -m64 -I/cvmfs/cp3.uclouvain.be/root/root-6.12.04-sl7_amd64_gcc73/include -o Main/main.o -c Main/main.cpp
+g++ -Wall -O3 -fPIC -I/nfs/user/kjaffel/MG5_aMC_v2_7_3/HEPTools/madanalysis5/madanalysis5/tools/ -I./ -pthread -std=c++11 -m64 -I/cvmfs/cp3.uclouvain.be/root/root-6.12.04-sl7_amd64_gcc73/include -o SampleAnalyzer/User/Analyzer/user.o -c SampleAnalyzer/User/Analyzer/user.cpp
